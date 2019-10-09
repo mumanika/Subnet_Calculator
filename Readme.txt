@@ -6,7 +6,7 @@ IMPORTANT NOTE: This script uses python 2.7 to execute the logic. Please do not 
 Steps to run the script: 
 1. Install the ip address library for python. You can do so by running the command pip install ippaddress from the CLI of your linux machine. If you are using a windows machine, you will need to download the ipaddress library and place it into the libraries folder.
 2. Place the script in a suitable directory or folder. 
-3. Run the python script through the CLI by entering the command: "python ip_addr_allocation.py"
+3. Run the python script through the CLI by entering the command: "python ip_addr_allocation.py".
 4. Enter the IP network address of choice. 
 5. The code handles all possibilities of supernetting and subnetting with the most efficient utilization of address space. 
 6. If you enter a class B address and request for hosts mode than the limit of that subnet, no output will be received. 
